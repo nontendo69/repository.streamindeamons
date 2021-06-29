@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.streamindeamons" name="Streamin Deamons Repository" version="1.0" provider-name="streamindeamons">
-    <extension point="xbmc.addon.repository" name="Streamin Deamons Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/streamindemons/Addons/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/streamindemons/Addons/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/streamindemons/Addons/raw/master/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Streamin Deamons Repository</summary>
-        <description>Download our Build!</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
+<addon id="repository.streamindemons" name="Streamin Demons Repo" version="1.4" provider-name="streamindemons">
+	<extension point="xbmc.addon.repository" name="Streamin Demons Repo">
+		<info compressed="false">https://raw.githubusercontent.com/streamindemons/streamindemons.github.io/master/repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/streamindemons/streamindemons.github.io/master/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://slamiousbuilds.com/19repo/zips/</datadir>		
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Streamin Demons Repo</summary>
+		<description>Repo for Kodi 19</description>
+		<platform>all</platform>
+		<assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
+     </assets>
+	</extension>
 </addon>
